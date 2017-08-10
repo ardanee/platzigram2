@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Platzigram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="HintUserName">Nombre de Usuario</string>
+    <string name="HintPassword">Contraseña</string>
+    <string name="btnLoginText">Ingresar</string>
+    <string name="dontHaveAccount">¿No tienes cuenta?</string>
+    <string name="hintEmail">Correo</string>
+    <string name="hintName">Nombre</string>
+    <string name="HintPasswordConfirm">Confirmar contraseña</string>
+    <string name="btnJoinUs">Unéte</string>
+    <string name="TittleToolbarCreateAccount">Crear cuenta</string>
+    <string name="createAccountTv">Crea una cuenta</string>
+    <string name="usernameCard">Luis Ramirez</string>
+    <string name="firstWordCard">Hace </string>
+    <string name="timecard">4 días</string>
+    <string name="tvLikeNumberCard">10 Me gusta</string>
+    <string name="tabSearchTittle">Buscar</string>
+    <string name="tabHomeTittle">Inicio</string>
+    <string name="tabProfileTittle">Yo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="likeDetail">Me gusta</string>
+    <string name="titleImageDetail">\"Todo copas en la playa\"</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sapien convallis, consectetur odio et, vulputate tortor. In eget augue interdum, facilisis felis in, congue mauris. Vivamus id scelerisque massa. Integer posuere enim vitae ex malesuada elementum. Nulla et velit consectetur, mattis nunc non, tristique lorem. Duis blandit purus neque, a ultrices arcu vestibulum et. Vivamus suscipit mattis malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed viverra velit vel arcu aliquam, vel dapibus orci semper. In sed condimentum augue. Suspendisse convallis accumsan tellus id hendrerit. Nullam sollicitudin dignissim elit, eu tempor nunc sagittis vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.  Donec suscipit est a ligula laoreet convallis. Curabitur non elit semper, tempus sapien nec, mattis est. In non egestas mi, quis accumsan tellus. Fusce sodales orci in risus tempor sollicitudin. Vivamus vehicula pulvinar vulputate. Vestibulum luctus, mi in elementum porta, ipsum tellus maximus nisl, malesuada dictum augue purus ac elit. Sed dictum elementum dolor, sit amet tempor urna mollis a. In ante nisl, bibendum in eleifend hendrerit, imperdiet sed nulla. Proin eget sem in leo placerat convallis. Donec sodales lobortis nisi eget sagittis.  Donec consequat, ante a rutrum rutrum, felis dolor posuere urna, ac suscipit enim urna a ex. Mauris convallis augue sit amet urna vulputate egestas. Nullam ornare auctor mi. In in ligula efficitur, pretium arcu a, eleifend ligula. Sed auctor, purus vitae hendrerit consectetur, dolor mauris scelerisque lectus, sit amet mollis mauris dolor id diam. Nulla porttitor non magna vitae lacinia. Nullam lorem nulla, consectetur ac quam nec, luctus tincidunt mi.</string>
+    <string name="transitionname_picture">transitionnamepicture</string>
+    <string name="post_title">Título</string>
+    <string name="post_content">Contenido</string>
+    <string name="create_Post">Crear Post</string>
+</resources>
