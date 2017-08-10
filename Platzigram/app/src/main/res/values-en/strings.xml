@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Platzigram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="HintUserName">Nombre de Usuario</string>
+    <string name="HintPassword">Contraseña</string>
+    <string name="btnLoginText">Ingresar</string>
+    <string name="dontHaveAccount">¿No tienes cuenta?</string>
+    <string name="hintEmail">Correo</string>
+    <string name="hintName">Nombre</string>
+    <string name="HintPasswordConfirm">Confirmar contraseña</string>
+    <string name="btnJoinUs">Unéte</string>
+    <string name="TittleToolbarCreateAccount">Crear cuenta</string>
+    <string name="createAccountTv">Crea una cuenta</string>
+    <string name="usernameCard">Luis Ramirez</string>
+    <string name="firstWordCard">Hace </string>
+    <string name="timecard">4 días</string>
+    <string name="tvLikeNumberCard">10 Me gusta</string>
+    <string name="tabSearchTittle">Buscar</string>
+    <string name="tabHomeTittle">Buscar</string>
+    <string name="tabProfileTittle">Buscar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="likeDetail">Me gusta</string>
+    <string name="titleImageDetail">\"Todo copas en la playa\"</string>
+    <string name="post_title">Title</string>
+    <string name="post_content">Contenido</string>
+    <string name="create_Post">Crear Post</string>
+</resources>

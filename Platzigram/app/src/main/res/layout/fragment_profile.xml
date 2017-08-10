@@ -1,0 +1,97 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rubik.platzigram.ReferenciaActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbarProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:statusBarScrim="@color/colorPrimary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingTop="200dp">
+
+                <TextView
+                    android:id="@+id/tvUserNameProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/usernameCard"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_usernameprofile" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerProfile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <!--Image que se desplazará, por eso se crea fuera del appbar-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/dimen_circleimageprofile"
+        android:layout_height="@dimen/dimen_circleimageprofile"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="@dimen/margintop_imageprofile"
+        android:src="@drawable/cbl_red_bricks_9x12_200_dpi"
+        app:dependTargetY="@dimen/limitY_circleImage"
+        app:dependType="y"
+        app:dependsOn="@+id/appbarProfile"
+        app:elevation="@dimen/elevation_circleimageprofile"
+        app:layout_behavior="com.zoonref.SimpleViewBehavior"
+        app:targetHeight="@dimen/size_circleImageProfile"
+        app:targetWidth="@dimen/size_circleImageProfile"
+        app:targetX="@dimen/activity_vertical_margin"
+        app:targetY="@dimen/margintoptoolbar_circleimageprofile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft_usernameToolbarProfile"
+        android:layout_marginTop="@dimen/marginTop_usernameToolbarProfile"
+        android:alpha="0"
+        android:gravity="center_vertical"
+        android:text="@string/usernameCard"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/userNameToolbarProfile"
+        app:dependTargetY="@dimen/limitYusernameToobarProfile"
+        app:dependType="y"
+        app:dependsOn="@+id/appbarProfile"
+        app:layout_behavior="com.zoonref.SimpleViewBehavior"
+        app:targetAlpha="1"
+        app:targetY="@dimen/margintoptargety_userNameProfile" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pictureRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/cardview_picture" />
+
+</android.support.design.widget.CoordinatorLayout>
